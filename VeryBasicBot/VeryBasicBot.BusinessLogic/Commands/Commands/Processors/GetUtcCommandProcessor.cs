@@ -53,6 +53,7 @@ public class GetUtcCommandProcessor<TReplyMarkupBase> : CommandProcessor<GetUtcC
     /// <param name="token"></param>
     protected override async Task InnerProcess(Message message, string args, CancellationToken token)
     {
+        // Creates a message for sending
         var utcMessageRequest = new SendMessageRequest(Guid.NewGuid().ToString())
         {
             Message = new Message
@@ -64,6 +65,6 @@ public class GetUtcCommandProcessor<TReplyMarkupBase> : CommandProcessor<GetUtcC
         };
 
         // Tries to send a message using a concrete implementation of Bot (TelegramBot, for example)
-        await _bot.SendMessageAsync(request: utcMessageRequest, optionsBuilder: (ISendOptionsBuilder<TReplyMarkupBase>)null, token: token);
+        await _bot.SendMessageAsync(request: utcMessageRequest, optionsBuilder: (ISendOptionsBuilder<TReplyMarkupBase>)null!, token: token);
     }
 }

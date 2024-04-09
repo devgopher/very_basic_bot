@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Botticelli.Framework", "..\botticelli\Botticelli.Framework\Botticelli.Framework.csproj", "{B620052D-DA8D-42F6-ACC8-6228B1840A23}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Botticelli.Framework.Telegram", "..\botticelli\Botticelli.Framework.Telegram\Botticelli.Framework.Telegram.csproj", "{71008870-2212-4A74-8777-B5B268C27911}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Botticelli.BotBase", "..\botticelli\Botticelli.API\Botticelli.BotBase.csproj", "{E9FB2EC3-6C4F-4886-AFED-A2518733CF2A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Botticelli.Bus.None", "..\botticelli\Botticelli.Bus\Botticelli.Bus.None.csproj", "{79DEC257-916B-402D-BBB9-BF4E6518FF8F}"
@@ -29,9 +27,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botticelli.Interfaces", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botticelli.Shared", "..\botticelli\Botticelli.Shared\Botticelli.Shared.csproj", "{47915BCD-F453-45F9-8CD2-DC4C94A2AC2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryBasicBot", "VeryBasicBot\VeryBasicBot.csproj", "{AA41D2E0-4656-4B13-97D9-54074313EE7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryBasicBot.Telegram", "VeryBasicBot.Telegram\VeryBasicBot.Telegram.csproj", "{AA41D2E0-4656-4B13-97D9-54074313EE7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryBasicBot.BusinessLogic", "VeryBasicBot.BusinessLogic\VeryBasicBot.BusinessLogic.csproj", "{0BA4C752-5269-4216-9338-8611D8759A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botticelli.Framework.Telegram", "..\botticelli\Botticelli.Framework.Telegram\Botticelli.Framework.Telegram.csproj", "{ED5BD605-D1D4-4EF2-B0D5-503247C876F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +87,10 @@ Global
 		{0BA4C752-5269-4216-9338-8611D8759A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA4C752-5269-4216-9338-8611D8759A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA4C752-5269-4216-9338-8611D8759A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5BD605-D1D4-4EF2-B0D5-503247C876F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5BD605-D1D4-4EF2-B0D5-503247C876F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5BD605-D1D4-4EF2-B0D5-503247C876F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5BD605-D1D4-4EF2-B0D5-503247C876F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{67C56788-EC98-44A2-A6CE-EFA20A226954} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
@@ -97,10 +101,10 @@ Global
 		{FF0C8774-DE1F-4EBB-AA83-03F941C3AFBE} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{B620052D-DA8D-42F6-ACC8-6228B1840A23} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{E262AC68-042F-4990-8614-7129EEE79BA2} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
-		{71008870-2212-4A74-8777-B5B268C27911} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{A1A3FDE9-6053-4870-9347-F4198259ACD8} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{00698F0D-49F2-48B1-B90F-C95E97369353} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{28BF8762-1DCA-4171-8B6E-EE0E3FABDF00} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 		{47915BCD-F453-45F9-8CD2-DC4C94A2AC2F} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
+		{ED5BD605-D1D4-4EF2-B0D5-503247C876F9} = {1F276D50-8A66-4BA5-A548-BF84B38413B4}
 	EndGlobalSection
 EndGlobal
